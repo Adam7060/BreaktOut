@@ -1,4 +1,4 @@
-## Setup project localy
+## Setup project locally
 
 - git clone git@github.com:Adam7060/BreaktOut.git
 - cd BreakOut
