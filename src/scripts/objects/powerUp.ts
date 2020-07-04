@@ -14,9 +14,7 @@ export default class PowerUp extends Phaser.Physics.Arcade.Sprite {
   generatePowerUp() {
     // @ts-ignore
     const paddle = this._scene.paddle
-    const a: number = 3
-    Math.round(Math.random() * 3)
-    switch (a) {
+    switch (Math.random() * 3) {
       case 0:
         this._scene.physics.add.collider(this, paddle, this.extraLife, undefined, this._scene)
         break
